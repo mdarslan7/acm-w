@@ -1,13 +1,13 @@
 .nbutton {
-    background-color: #5dc5fd;
+    background-color: #9b84f4;
     color: black;
     padding: 10px 30px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 700;
-    margin: 4px 2px;
+    margin: 5px 4px;
     cursor: pointer; 
     border: 2px solid black;
     border-radius: 50px;
@@ -15,11 +15,11 @@
 }
 .nbutton:hover {
 	background:none;
-	border: 2px solid #5dc5fd;
+	border: 2px solid #9b84f4;
 	
 }
 .nbutton1 {
-    background-color: #5dc5fd;
+    background-color: #9b84f4;
     color: black;
     padding: 10px 30px;
     text-align: center;
@@ -29,19 +29,19 @@
     margin: 4px 2px;
     cursor: pointer; 
     border-radius: 50px;
-    border: 2px solid #5dc5fd;
+    border: 2px solid #9b84f4;
     margin-top: 10px;
 }
 .nbutton1:hover {
 	background:none;
-	border: 2px solid #5dc5fd;
+	border: 2px solid #9b84f4;
 	
 }
 .send_message{
     color:'black';
 }
 .send_message:hover{
-    color: #5dc5fc;
+    color: #856BC7;
     text-decoration: none;
     transition: 0.5s;
 }

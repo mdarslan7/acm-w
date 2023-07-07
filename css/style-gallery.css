@@ -5,16 +5,16 @@ body {
     color: gray;
     font-weight: 400;
     font-size: 1rem;
-    background: #162b45;
+    background: #271549;
 }
 
 ::-moz-selection {
-    background: #162b45;
+    background: #271549;
     color: #fff;
 }
 
 ::selection {
-    background: #162b45;
+    background: #271549;
     color: #fff;
 }
 
