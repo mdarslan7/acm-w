@@ -7880,22 +7880,25 @@ h6 {
     background-size: cover;
 }
 .breadcrumb_bg1 {
-    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url("../img/contact.gif");
+    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url("../img/contact_website.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .breadcrumb_bg2 {
-    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url("../img/aboutus.gif");
+    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url("../img/aboutus.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 .breadcrumb_bg3 {
     background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url("../img/gallery2.gif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 /* line 5, E:/170 Kanox Agency/170_Kanox_Agency_html/sass/_breadcrumb.scss */
@@ -7905,14 +7908,14 @@ h6 {
     text-align: center;
 }
 
-/* line 10, E:/170 Kanox Agency/170_Kanox_Agency_html/sass/_breadcrumb.scss */
+/* line 10, E:/170 Kanox Agency/170_Kanox_Agency_html/sass/_breadcrumb.scss 4b2b75*/
 .breadcrumb:after {
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: #112e41;
+    background-color: #3f2167;
     content: "";
     opacity: 0.75;
     z-index: -1;
