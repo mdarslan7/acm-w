@@ -268,6 +268,40 @@
 .navbar-light .navbar-nav .active>.nav-link {
     text-shadow: 4px 3px 4px #80808055;
 }
+
+.bold {
+    font-weight: bold;
+}
+
+/* #nexus {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 8px 6px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+} */
+
+.nav {
+    margin-right: 150px;
+}
 </style>
 
 
@@ -284,13 +318,16 @@
               <span class="navbar-toggler-icon"></span>
             </button>
 
-                        <div class="collapse navbar-collapse main-menu-item justify-content-center" id="navbarSupportedContent">
+                        <div class="collapse navbar-collapse main-menu-item justify-content-center nav" id="navbarSupportedContent">
                             <ul class="navbar-nav">
                                 <li class="nav-item active ">
                                     <a class="nav-link" href="index.html">Home</a>
                                 </li>
                                 <li class="nav-item  active ">
                                     <a class="nav-link" href="about.html">About</a>
+                                </li>
+                                <li class="nav-item active ">
+                                    <a class="nav-link btn" id="nexus" href="prodigy/index.html">Prodigy 2024</a>
                                 </li>
                                 <li class="nav-item  active ">
                                     <a class="nav-link" href="gallery.html">Gallery</a>
@@ -372,7 +409,10 @@
                             <div class="banner_text_iner text-center banner_one">
                                 <h3>WELCOME TO </h3><br>
                                 <h2>UPES ACM-W</h2>
-                                <a href="https://konfhub.com/checkout/upesacm-acmw-registration?ticketId=8618" target="_blank" class="nbutton">Become a Member<i class="ti-angle-right"></i> </a>
+                                <div>
+                                    <a href="https://konfhub.com/checkout/upesacm-acmw-registration?ticketId=8618" target="_blank" class="nbutton">Become a Member<i class="ti-angle-right"></i> </a>
+                                <a href="https://www.upesacm.org/" target="_blank" class="nbutton">Visit UPES ACM<i class="ti-angle-right"></i> </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -494,6 +534,10 @@
                                 <div class="single_work_demo">
                                     <h2 style="color:#795CC1">Achievements</h2>
                                     <ul>
+                                        <li style="margin-top: 20px;">
+                                            <h4 class="bold">Outstanding Chapter Award - 2023</h4>
+                                            - Awarded by ACM India<br>
+                                        </li><br>
                                         <li>
                                             <h4>Best Student Chapter Award for Outstanding Community Service - 2021</h4>
                                             - Awarded by ACM India<br>
